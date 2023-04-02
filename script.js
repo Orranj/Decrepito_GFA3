@@ -8,7 +8,8 @@ document.getElementById("n3").innerHTML = n3;
 var biggest = n1;
 if (n2 > biggest) {
   biggest = n2;
-}else if (n3 > biggest) {
+}
+if (n3 > biggest) {
   biggest = n3;
 }
 
